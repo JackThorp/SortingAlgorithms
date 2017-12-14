@@ -71,3 +71,4 @@ TEST_CASE("Can set up bubble sorter..")
         REQUIRE(sorted == result);
     }
 }
+

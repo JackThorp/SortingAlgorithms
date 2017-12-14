@@ -12,6 +12,9 @@
 		3F0E34751FC59D53004FEE6F /* BubbleSortTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E34731FC59D53004FEE6F /* BubbleSortTests.cpp */; };
 		3F0E34781FC59ECE004FEE6F /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E34761FC59ECE004FEE6F /* BubbleSort.cpp */; };
 		3F0E34791FCED1FF004FEE6F /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E34761FC59ECE004FEE6F /* BubbleSort.cpp */; };
+		3F0E347B1FE2F26B004FEE6F /* MergeSortTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E347A1FE2F26B004FEE6F /* MergeSortTests.cpp */; };
+		3F0E347E1FE2F2DE004FEE6F /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E347C1FE2F2DE004FEE6F /* MergeSort.cpp */; };
+		3F0E34811FE2F5CC004FEE6F /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E347C1FE2F2DE004FEE6F /* MergeSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +57,9 @@
 		3F0E34731FC59D53004FEE6F /* BubbleSortTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSortTests.cpp; sourceTree = "<group>"; };
 		3F0E34761FC59ECE004FEE6F /* BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
 		3F0E34771FC59ECE004FEE6F /* BubbleSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BubbleSort.hpp; sourceTree = "<group>"; };
+		3F0E347A1FE2F26B004FEE6F /* MergeSortTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortTests.cpp; sourceTree = "<group>"; };
+		3F0E347C1FE2F2DE004FEE6F /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		3F0E347D1FE2F2DE004FEE6F /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,8 @@
 				3F0E34541FC598D4004FEE6F /* main.cpp */,
 				3F0E34761FC59ECE004FEE6F /* BubbleSort.cpp */,
 				3F0E34771FC59ECE004FEE6F /* BubbleSort.hpp */,
+				3F0E347C1FE2F2DE004FEE6F /* MergeSort.cpp */,
+				3F0E347D1FE2F2DE004FEE6F /* MergeSort.hpp */,
 			);
 			path = SortingAlgorithms;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 				3F0E345C1FC59C15004FEE6F /* catch.hpp */,
 				3F0E346E1FC59CFF004FEE6F /* main.cpp */,
 				3F0E34731FC59D53004FEE6F /* BubbleSortTests.cpp */,
+				3F0E347A1FE2F26B004FEE6F /* MergeSortTests.cpp */,
 			);
 			path = SortingAlgorithmsTests;
 			sourceTree = "<group>";
@@ -222,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F0E34551FC598D4004FEE6F /* main.cpp in Sources */,
+				3F0E347E1FE2F2DE004FEE6F /* MergeSort.cpp in Sources */,
 				3F0E34781FC59ECE004FEE6F /* BubbleSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,8 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0E34811FE2F5CC004FEE6F /* MergeSort.cpp in Sources */,
 				3F0E34791FCED1FF004FEE6F /* BubbleSort.cpp in Sources */,
 				3F0E346F1FC59CFF004FEE6F /* main.cpp in Sources */,
+				3F0E347B1FE2F26B004FEE6F /* MergeSortTests.cpp in Sources */,
 				3F0E34751FC59D53004FEE6F /* BubbleSortTests.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
