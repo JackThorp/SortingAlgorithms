@@ -14,7 +14,9 @@
 class MergeSort
 {
 public:
-    std::vector<int> sort(std::vector<int> list);
+    //std::vector<int> sort(std::vector<int> list);
+    void recursiveSort(std::vector<int>& list);
+    std::vector<std::vector<int>> subList(std::vector<int> list, int sub_size);
 };
 
 #endif /* MergeSort_hpp */
