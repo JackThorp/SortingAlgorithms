@@ -19,7 +19,8 @@ vector<int> BubbleSort::sort(vector<int> list)
     bool swap;
     do {
         swap = false;
-        for(int i = 0; i < (int)list.size() - 1; ++i)
+        // Better way without cast to int?
+        for(int i = 0; i < (int) list.size() - 1; ++i)
         {
             int a = list[i];
             int b = list[i+1];
