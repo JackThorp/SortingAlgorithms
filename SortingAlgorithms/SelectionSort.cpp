@@ -40,13 +40,13 @@ void SelectionSort::sort(vector<int>& list)
     
     size_t count = 0;
     size_t size = list.size();
+
+    // Pre: size is >= 1
     while (count < size)
     {
-        // Intialise min value.
-        //int mInt = list.front();
+        // Intialise min value to head of current sublist.
         It mIt = list.begin() + count;
         
-        // list size is at least one.
         for (It it = list.begin() + count + 1; it != list.end(); ++it)
         {
             if (*it < *mIt)
@@ -61,4 +61,11 @@ void SelectionSort::sort(vector<int>& list)
     }
 
     return;
+}
+
+// If call is made here to sort function (above) what is the performance difference
+// compared to caller going to above sort directly?
+vector<int> SelectionSort::copySort(vector<int> list)
+{
+    return list;
 }

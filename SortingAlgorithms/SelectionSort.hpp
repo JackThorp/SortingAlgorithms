@@ -20,6 +20,8 @@ public:
     
     // Sort a copy i.e. by value
     std::vector<int> copySort(std::vector<int>); // can't overload based on by-ref / by-val...
+    
+    
 };
 
 #endif /* SelectionSort_hpp */
